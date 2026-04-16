@@ -67,3 +67,34 @@ body {
     color: #00c8ff;
     transform: scale(1.2);
 }
+
+@media (max-width: 767px) {
+    .hero-img {
+        width: 250px;
+        height: 320px;
+        margin-bottom: 30px;
+    }
+
+    #home .col-md-6 {
+        text-align: center !important;
+    }
+
+    .display-5 {
+        font-size: 2.2rem;
+    }
+    
+    .fs-3 {
+        font-size: 1.5rem !important;
+    }
+
+    #home .btn {
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+        margin-right: 0 !important;
+    }
+
+    .content-about p {
+        padding: 0 15px;
+    }
+}
