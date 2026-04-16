@@ -3,133 +3,223 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Michael Surya</title>
-    <link rel="icon" type="image/x-icon" href="assets/logo icon.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Michael Surya | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <!-- NAVIGATION BAR -->
-    <div class="navbar">
-        <!-- LOGO -->
-        <a href="#home">
-            <img src="/assets/home_logo.png" alt="home_logo" width="250" height="78">
-        </a>
-        <ul class="menu">
-            <li>
-                <a href="#home" class="btn btn-others">Home</a>
-            </li>
-            <li>
-                <a href="#about" class="btn btn-others">About</a>
-            </li>
-            <li>
-                <a href="#portfolio" class="btn btn-others">Portfolio</a>
-            </li>
-            <li>
-                <a href="#contact" class="btn btn-others">Contact</a>
-            </li>
-        </ul>
-    </div>
+<body class="bg-dark text-light">
 
-    <!-- HOME -->
-    <section class="home" id="home">
-        <div class="max-width">
-            <div class="home-content">
-                <!-- FOTO HOME -->
-                <div class="foto-home">
-                    <img src="assets/Foto-Michael-transparent.png" alt="Foto Michael Surya" width="450px">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-info" href="#home">MICHAELSURYA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link fs-5" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link fs-5" href="#about">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link fs-5" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link fs-5" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="min-vh-100 d-flex align-items-center pt-5">
+        <div class="container">
+            <div class="row align-items-center flex-column-reverse flex-md-row">
+                <div class="col-md-6 mt-4 mt-md-0">
+                    <h2 class="fs-3 fw-bold">Hi! I'm Michael,</h2>
+                    <h1 class="fw-bold display-5">a <span class="text-info typing-text"></span></h1>
+                    <p class="mt-3 text-white-50 fs-5">
+                        Bridging user-centered design with robust technical functionality. I craft intuitive digital experiences from high-fidelity Figma prototypes to fully responsive websites, bringing ideas to life with seamless interactions and dynamic motion graphics.
+                    </p>
+                    <div class="mt-4">
+                        <a href="https://drive.google.com/file/d/1pFyzON9h3teodxV7_WRfqJJxc3dOuurN/view?usp=sharing" target="_blank" class="btn btn-info btn-lg fw-bold text-dark me-3">Download My CV</a>
+                        <a href="#projects" class="btn btn-outline-light btn-lg">View Projects</a>
+                    </div>
                 </div>
-                <!-- INTRO -->
-                <div class="intro">
-                    <p style="font-size: 50px;">
-                        Halo! Saya
-                    </p>
-                    <p style="font-size: 50px; font-weight: bold; color: #00c8ff;">
-                        Michael Surya
-                    </p>
-                    <br>
-                    <p style="font-size: 30px;">Selamat datang di Website Portofolio milik saya.</p>
-                    <a href="https://www.linkedin.com/in/mchlsry/" target="_blank">
-                        <button class="btn-contact">
-                            Contact Me
-                        </button>
-                    </a>
+                <div class="col-md-6 text-center">
+                    <img src="assets/Michael Surya.jpeg" alt="Michael Surya" class="img-fluid hero-img">
                 </div>
             </div>
         </div>
     </section>
-    <br><br><br><br><br><br>
-    <!-- ABOUT -->
-    <section class="about" id="about">
-        <!-- TITLE -->
-        <div class="title">
-            <span>About</span>
-            <span style="color: #00c8ff;">Me</span>
+
+    <section id="about" class="py-5 bg-darker">
+        <div class="container py-5">
+            <h2 class="text-center fw-bold mb-5">About <span class="text-info">Me</span></h2>
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <p class="text-white-50 fs-5 mx-auto" style="max-width: 800px;">
+                        I am a Computer Science graduate from BINUS University with a minor in Interactive & User Experience. With hands-on experience as a Web Designer Intern, I specialize in executing end-to-end digital interface projects. I am a detail-oriented problem solver with high tenacity, ready to bridge business requirements with technical functionality.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row g-4 text-center">
+                <div class="col-md-4">
+                    <div class="p-4 border border-secondary rounded h-100 skill-box">
+                        <i class="fa-solid fa-laptop-code text-info fs-1 mb-3"></i>
+                        <h4 class="fw-bold mb-3">Hard Skills</h4>
+                        <p class="text-white-50">UI/UX Design, High-Fidelity Prototyping, Wireframing, Responsive Web Layout, User-Centered Research, Information Architecture, CMS Management, HTML, CSS, JS, 3D Motion Graphics.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-4 border border-secondary rounded h-100 skill-box">
+                        <i class="fa-solid fa-screwdriver-wrench text-info fs-1 mb-3"></i>
+                        <h4 class="fw-bold mb-3">Tools</h4>
+                        <p class="text-white-50">Figma, WordPress, Visual Studio Code, Git, Adobe Premiere Pro, Adobe After Effects, Adobe Illustrator, Canva, CapCut.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-4 border border-secondary rounded h-100 skill-box">
+                        <i class="fa-solid fa-users text-info fs-1 mb-3"></i>
+                        <h4 class="fw-bold mb-3">Soft Skills</h4>
+                        <p class="text-white-50">Attention to Detail, Critical Thinking, Problem Solving, Cross-Functional Collaboration, Adaptability, Tenacity.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- FOTO -->
-        <div class="foto-about">
-            <img src="/assets/foto 2.png" alt="Foto">
-        </div>
-        <!-- CONTENT ABOUT -->
-         <div class="content-about">
-            <p>
-                Saya merupakan seorang mahasiswa sarjana tahun terakhir jurusan Computer Science dengan minat kuat di bidang Front-End Web Development. Saat ini, saya sedang menjalani program Studi Independen dengan topik Data Science & AI. Saya memiliki keterampilan dalam HTML, CSS, dan JavaScript. Saat ini saya masih mempelajari beberapa dasar framework yang nantinya dapat berguna dalam pembuatan suatu Web. <br><br>Aktif dalam organisasi kemahasiswaan, saya telah memegang beberapa peran penting dalam berbagai event, antara lain sebagai anggota divisi acara, hubungan masyarakat, dan sekretaris. Saya mampu bekerja di bawah tekanan, mengelola waktu dengan baik, dan selalu menyelesaikan tugas tepat waktu. Saya bersemangat untuk menerapkan pengetahuan dan keterampilan saya dalam pengembangan web untuk menciptakan pengalaman pengguna yang menarik dan responsif.
-            </p>
-         </div>
     </section>
-    <br><br><br><br><br><br>
-    <section class="portfolio" id="portfolio">
-        <!-- TITLE -->
-        <div class="title">
-            <span style="color: #00c8ff;">Portfolio</span>
+
+    <section id="projects" class="py-5">
+        <div class="container py-5">
+            <h2 class="text-center fw-bold mb-5">My <span class="text-info">Projects</span></h2>
+            <div class="row g-4">
+                
+                <div class="col-md-4">
+                    <div class="card bg-dark border-secondary h-100 project-card">
+                        <img src="assets/clarus-mockup.png" class="card-img-top" alt="Clarus Web">
+                        <div class="card-body">
+                            <h5 class="card-title text-light fw-bold">Clarus Innovace Teknologi</h5>
+                            <p class="card-text text-secondary small">Led the end-to-end redesign and development of PT Clarus Innovace Teknologi's primary website using Figma and WordPress.</p>
+                            <a href="https://clarus-it.co.id" target="_blank" class="text-info text-decoration-none fw-bold">Live Site <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card bg-dark border-secondary h-100 project-card">
+                        <img src="assets/soc-clarus-mockup.png" class="card-img-top" alt="SOC Clarus Web">
+                        <div class="card-body">
+                            <h5 class="card-title text-light fw-bold">SOC Clarus Innovace Teknologi</h5>
+                            <p class="card-text text-secondary small">Spearheaded the UI/UX design and web development for the Clarus SOC profile, creating a specialized platform to showcase cybersecurity services.</p>
+                            <a href="https://soc.clarus-it.co.id" target="_blank" class="text-info text-decoration-none fw-bold">Live Site <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card bg-dark border-secondary h-100 project-card">
+                        <img src="assets/motion-mockup.png" class="card-img-top" alt="3D Motion">
+                        <div class="card-body">
+                            <h5 class="card-title text-light fw-bold">Kickoff 2025 Motion Graphics</h5>
+                            <p class="card-text text-secondary small">Produced high-quality 3D motion graphics, animated logos, and event countdowns for corporate events.</p>
+                            <a href="https://youtu.be/zVmoXmqRDSo" target="_blank" class="text-info text-decoration-none fw-bold">Watch Video <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="col-md-4">
+                    <div class="card bg-dark border-secondary h-100 project-card">
+                        <img src="assets/Kalkulator BMI.png" class="card-img-top" alt="BMI Calculator">
+                        <div class="card-body">
+                            <h5 class="card-title text-light fw-bold">BMI Calculator</h5>
+                            <p class="card-text text-secondary small">A responsive web application to calculate Body Mass Index built with HTML, CSS, and vanilla JavaScript.</p>
+                            <a href="https://revou-fundamental-course.github.io/4-mar-24-mchlsry/" target="_blank" class="text-info text-decoration-none fw-bold">View Code <i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="col-md-4">
+                    <div class="card bg-dark border-secondary h-100 project-card">
+                        <img src="assets/ezybuy.png" class="card-img-top" alt="EzyBuy">
+                        <div class="card-body">
+                            <h5 class="card-title text-light fw-bold">EzyBuy E-Commerce</h5>
+                            <p class="card-text text-secondary small">Front-end slice of an e-commerce platform interface focusing on modern UI and responsive layout.</p>
+                            <a href="https://github.com/mchlsry/ezybuy" target="_blank" class="text-info text-decoration-none fw-bold">View Code <i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="col-md-4">
+                    <div class="card bg-dark border-secondary h-100 project-card">
+                        <img src="assets/MTgraphy.png" class="card-img-top" alt="MTgraphy">
+                        <div class="card-body">
+                            <h5 class="card-title text-light fw-bold">MTgraphy Photography Web</h5>
+                            <p class="card-text text-secondary small">A structured portfolio website designed for showcasing photography assets and visual projects.</p>
+                            <a href="https://github.com/mchlsry/MTgraphy" target="_blank" class="text-info text-decoration-none fw-bold">View Code <i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card bg-dark border-secondary h-100 project-card">
+                        <img src="assets/shopee-mockup.jpg" class="card-img-top" alt="Shopee Redesign">
+                        <div class="card-body">
+                            <h5 class="card-title text-light fw-bold">Shopee: Inclusive Redesign</h5>
+                            <p class="card-text text-white-50 small">Redesigned Shopee with a focus on accessibility, featuring a Virtual Assistant and special needs delivery integration for an inclusive UX.</p>
+                            <div class="d-flex flex-column gap-2 mt-3">
+                                <a href="https://www.figma.com/proto/z82qTAXCnzHUIKemdM4qYl/Shopee?node-id=116-237&starting-point-node-id=116%3A128&mode=design&t=pKhfoi0J0Y139dlw-1" target="_blank" class="text-info text-decoration-none fw-bold small">Figma Prototype <i class="fa-solid fa-arrow-right"></i></a>
+                                <a href="https://drive.google.com/file/d/1qTL-gEpQT3F76vhM3zUV-o_9yiqCZlKT/view?usp=drive_link" target="_blank" class="text-white-50 text-decoration-none small"><i class="fa-solid fa-file-powerpoint"></i> View Presentation</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card bg-dark border-secondary h-100 project-card">
+                        <img src="assets/tokopedia-mockup.png" class="card-img-top" alt="Tokopedia Redesign">
+                        <div class="card-body">
+                            <h5 class="card-title text-light fw-bold">Tokopedia Homepage Redesign</h5>
+                            <p class="card-text text-white-50 small">Optimized the Tokopedia homepage interface through UX research and high-fidelity prototyping, focusing on improved navigation and visual hierarchy.</p>
+                            <div class="d-flex flex-column gap-2 mt-3">
+                                <a href="https://www.figma.com/proto/ErawocfOlM5ocHQoZMfam9/Redesign-Tokopedia--Home-Page-?node-id=18-11&p=f&t=AjDegD0IYn6LXp6r-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=18%3A11" target="_blank" class="text-info text-decoration-none fw-bold small">Figma Prototype <i class="fa-solid fa-arrow-right"></i></a>
+                                <a href="https://drive.google.com/file/d/18vlMs2CzDac6yDaSrTs-x-rLk_ujP7vG/view?usp=drive_link" target="_blank" class="text-white-50 text-decoration-none small"><i class="fa-solid fa-file-pdf"></i> Final Report</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card bg-dark border-secondary h-100 project-card">
+                        <img src="assets/wahyusardjono-mockup.png" class="card-img-top" alt="WahyuSardjono Redesign">
+                        <div class="card-body">
+                            <h5 class="card-title text-light fw-bold">WahyuSardjono Web Redesign</h5>
+                            <p class="card-text text-white-50 small">Modernized the visual interface and interactive elements for the Wahyu Sardjono platform, delivering a high-fidelity prototype with enhanced usability.</p>
+                            <div class="d-flex flex-column gap-2 mt-3">
+                                <a href="https://www.figma.com/proto/d5dFmKUruefFVweyaKNztY/High-Fidelity-Wahyu-Sardjono?node-id=216-1277&starting-point-node-id=216:1133&scaling=scale-down-width&mode=design&t=K4biZ9iukDaAbkO3-1" target="_blank" class="text-info text-decoration-none fw-bold small">Figma Prototype <i class="fa-solid fa-arrow-right"></i></a>
+                                <a href="https://drive.google.com/file/d/1pe1hrUCteGCmDnFlsbXqfVYw0fmxU0CG/view" target="_blank" class="text-white-50 text-decoration-none small"><i class="fa-solid fa-file-powerpoint"></i> View Presentation</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
-        <!-- CONTENT PORTFOLIO -->
-         <div class="content-portfolio">
-            <ul class="ul-portfolio">
-                <li class="BMI-Calculator">
-                    <a href="https://revou-fundamental-course.github.io/4-mar-24-mchlsry/" target="_blank">
-                        <div class="card">
-                            <div class="card-content">
-                                <img src="/assets/Kalkulator BMI.png" alt="BMI-Calculator">
-                                <h2>Project Link</h1>
-                                <p>
-                                    GitHub (code) → https://github.com/revou-fundamental-course/4-mar-24-mchlsry
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-                <li class="ezybuy">
-                    <a href="https://mchlsry.github.io/ezybuy/" target="_blank">
-                        <div class="card">
-                            <div class="card-content">
-                                <img src="/assets/ezybuy.png" alt="ezybuy">
-                                <h2>Project Link</h1>
-                                <p>
-                                    GitHub (code) → https://github.com/mchlsry/ezybuy
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-                <li class="MTGraphy">
-                    <a href="https://mchlsry.github.io/MTgraphy/MTgraphy/home.html" target="_blank">
-                        <div class="card">
-                            <div class="card-content">
-                                <img src="/assets/MTgraphy.png" alt="MTGraphy">
-                                <h2>Project Link</h1>
-                                <p>
-                                    GitHub (code) → https://github.com/mchlsry/MTgraphy
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-            </ul>
-         </div>
     </section>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="script.js" defer></script>
+
+    <footer id="contact" class="py-5 bg-darker text-center">
+        <div class="container">
+            <h3 class="fw-bold mb-4">Let's Connect</h3>
+            <div class="d-flex justify-content-center gap-4 mb-4">
+                <a href="https://www.linkedin.com/in/mchlsry/" target="_blank" class="social-icon"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/mchlsry/" target="_blank" class="social-icon"><i class="fa-brands fa-github"></i></a>
+                <a href="michaelsurya796@gmail.com" class="social-icon"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=628989341333" target="_blank" class="social-icon"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://instagram.com/mchlsry" target="_blank" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://linktr.ee/mchlsry" target="_blank" class="social-icon"><i class="fa-solid fa-link"></i></a>
+            </div>
+            <p class="text-secondary small m-0">&copy; 2026 Michael Surya. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
