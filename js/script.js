@@ -1,10 +1,14 @@
 document.addEventListener('DOMContentLoaded', function() {
     var typed = new Typed('.typing-text', {
         strings: [
-            'UI/UX Designer.', 
-            'Web Designer.', 
+            'Product Designer.', 
+            'Product Manager.', 
+            'Quality Assurance.', 
             'Web Developer.', 
-            'Front End Developer.'
+            'Tech Enthusiast.'
+            // 'UI/UX Designer.', 
+            // 'Web Designer.', 
+            // 'Front End Developer.'
         ],
         typeSpeed: 50,
         backSpeed: 30,
